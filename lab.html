@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>homepage</title>
+</head>
+<body>
+	<strong><font size="7">Feedback Form</font></strong>
+	<P>
+		Please fill out this form to help us improve our site.<br>
+		<form action="/action_page.php"method="get"> 
+		Name:<textarea rows="1"cols="50"></textarea><br>
+		Comments:<br><textarea rows="4"cols="50">
+		Enter comments here.
+		</textarea><br>
+		Email address:<textarea rows="1"cols="50"></textarea><br>
+	</P>
+	<b>Things you liked:<br>
+		
+			Site design<input type="radio" name="site" value="Site design">
+			Links<input type="radio" name="site" value="Links">
+			Ease of use<input type="radio" name="site" value="Ease of use">
+			Images<input type="radio" name="site" value="Images">
+			Source code<input type="radio" name="site" value="Source code"><br>
+		
+		<b>How did you get our site?:<br>
+					Search engine<input type="radio" name="site" value="Search engine">
+			Links from another site<input type="radio" name="site" value="Links from another site">
+			Deitel.com Web site<input type="radio" name="site" value="Deitel.com Web site">
+			Reference in a book<input type="radio" name="site" value="Reference in a book">
+			Other<input type="radio" name="site" value="Other"><br>
+			
+		
+		<b>Rate our site:
+			<select name="rate">
+				<option value="Amazing">Amazing</option>
+				<option value="Good">Good</option>
+				<option value="Bad">Bad</option>
+			</select>
+		<br><br>
+		<input type="submit" value="submit">
+		<input type="reset" value="clear"> 
+		</form>
